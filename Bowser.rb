@@ -2,7 +2,7 @@ include Java
 import javax.imageio.ImageIO
 MyFile = java.io.File
 
-PixelSize = 10
+PixelSize = 20
 
 def write_beginning(io , height , width)
   io.write "<html>\n"\
@@ -55,6 +55,6 @@ def make_html(io,img_name)
 
 end
 
-File.open "junk.html" , "w" do |file|
-  make_html file , "bowser.jpg"
+File.open "#{ARGV[0].split(".")[0]}.html" , "w" do |file|
+  make_html file , ARGV[0]
 end
