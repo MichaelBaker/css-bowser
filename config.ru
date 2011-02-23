@@ -1,2 +1,2 @@
-require './bowser'
+require './sinatra'
 run Sinatra::Application
