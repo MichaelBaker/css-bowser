@@ -1,5 +1,9 @@
 require "sinatra"
 
+configuration :production do
+  
+end
+
 get "/" do
   File.open "public/index.html" do |file|
     file.read
