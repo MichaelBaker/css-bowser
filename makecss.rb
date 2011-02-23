@@ -17,12 +17,15 @@ def write_beginning(io , height , width)
            "        display:            inline-block;\n"\
            "        position:           absolute;\n"\
            "        -webkit-transition: -webkit-transform 0.1s;\n"\
+           "        -moz-transition: -moz-transform 0.1s;\n"\
            "        z-index:            100;\n"\
            "      }\n"\
            "      .a:hover {\n"\
            "        -webkit-transform: rotateZ(315deg) scale(4);\n"\
+           "        -moz-transform: rotateZ(315deg) scale(4);\n"\
            "        z-index:           300;\n" \
            "        -webkit-box-shadow: 2px 2px 5px black;\n"\
+           "        -moz-box-shadow: 2px 2px 5px black;\n"\
            "        opacity:            0.9;\n"\
            "      }\n"\
            "      .b {\n"\
