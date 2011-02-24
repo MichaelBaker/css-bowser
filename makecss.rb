@@ -30,7 +30,7 @@ def write_beginning(io , height , width)
            "      }\n"\
            "      .b {\n"\
            "        position:   absolute;\n"\
-           "        background: url(\"happy.png\") top left no-repeat;\n"\
+           "        background: url(\"mario.png\") top left no-repeat;\n"\
            "        width:      #{PixelSize}px;\n"\
            "        height:     #{PixelSize}px;\n"\
            "        z-index:    50;\n"\
